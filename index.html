@@ -7,36 +7,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div id="calc-container">
-        <div id="calc-screen">0</div>
+        
+        <div id="calc-screen">
+            <div id="upper-screen">&#8203</div>
+            <div id="main-screen">0</div>
+        </div>
 
         <div class="calc-btn" id="btn-clear">AC</div>
         <div class="calc-btn" id="btn-del">⇐</div>
-        <div class="calc-btn calc-op">%</div>
-        <div class="calc-btn calc-op">/</div>
+        <div class="calc-btn calc-op" id="op-pow">^</div>
+        <div class="calc-btn calc-op" id="op-div">/</div>
 
 
-        <div class="calc-btn calc-num">7</div>
-        <div class="calc-btn calc-num">8</div>
-        <div class="calc-btn calc-num">9</div>
-        <div class="calc-btn calc-op">X</div>
+        <div class="calc-btn calc-num" id="num-7">7</div>
+        <div class="calc-btn calc-num" id="num-8">8</div>
+        <div class="calc-btn calc-num" id="num-9">9</div>
+        <div class="calc-btn calc-op" id="op-mult">X</div>
 
-        <div class="calc-btn calc-num">4</div>
-        <div class="calc-btn calc-num">5</div>
-        <div class="calc-btn calc-num">6</div>
-        <div class="calc-btn calc-op">-</div>
+        <div class="calc-btn calc-num" id="num-4">4</div>
+        <div class="calc-btn calc-num" id="num-5">5</div>
+        <div class="calc-btn calc-num" id="num-6">6</div>
+        <div class="calc-btn calc-op" id="op-sub">-</div>
 
-        <div class="calc-btn calc-num">1</div>
-        <div class="calc-btn calc-num">2</div>
-        <div class="calc-btn calc-num">3</div>
-        <div class="calc-btn calc-op">+</div>
+        <div class="calc-btn calc-num" id="num-1">1</div>
+        <div class="calc-btn calc-num" id="num-2">2</div>
+        <div class="calc-btn calc-num" id="num-3">3</div>
+        <div class="calc-btn calc-op" id="op-sum">+</div>
 
-        <div class="calc-btn calc-num">0</div>
+        <div class="calc-btn calc-num" id="num-0">0</div>
         <div class="calc-btn calc-num" id="btn-decimal">.</div>
-        <div class="calc-btn" id="calc-enter">=</div>
+        <div class="calc-btn" id="calc-equal">=</div>
     </div>
     <script src="./script/script.js"></script>
 </body>
