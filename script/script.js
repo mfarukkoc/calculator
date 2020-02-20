@@ -62,7 +62,7 @@ document.getElementById("btn-del").addEventListener("click", () => {
 const precedence = {
     "+": 1,
     "-": 1,
-    "*": 2,
+    "X": 2,
     "/": 2,
     "^": 3
 }
@@ -99,7 +99,7 @@ const operate = (num2, num1, op) => {
             return num1 + num2;
         case "-":
             return num1 - num2;
-        case "x":
+        case "X":
             return num1 * num2;
         case "/":
             return num1 / num2;
